@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    width: 55rem;
+}
+
+.header-label {
+    font-size: 5rem;
+}
+
+.add-event-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

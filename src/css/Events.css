@@ -1,0 +1,25 @@
+.events-container {
+    margin-top: 1rem;
+    background-color: rgba(228, 224, 224, 0.6);
+    width: 100%;
+    position: relative;
+    font-size: 2rem;
+    border-left: .5rem solid rgba(228, 224, 224, 0.6);
+    padding: 1rem;
+}
+
+.reminder {
+    border-left: .5rem solid green;
+}
+
+.events-container-box {
+    margin-left: 2rem;
+    position: relative;
+}
+
+.delBtn {
+    z-index: 2;
+    position: absolute;
+    top: 18%;
+    right: 2rem;
+}

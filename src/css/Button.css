@@ -1,0 +1,21 @@
+.btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+
+    height: 4rem;
+    padding: 0 1rem;
+
+    box-shadow: .2rem .3rem .4rem .1rem rgba(0, 0, 0, 0.6);
+
+    text-transform: uppercase;
+}
+
+.btn:active {
+    transform: translateY(.2rem);
+    box-shadow: .08rem .1rem .2rem .05rem rgba(0, 0, 0, 0.6);
+}
